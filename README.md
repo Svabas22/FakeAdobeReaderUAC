@@ -1,4 +1,4 @@
-# FakeTeamViewerUAC
+# FakeAdobeReaderUAC
 
 <b>For educational purposes only</b>
 
