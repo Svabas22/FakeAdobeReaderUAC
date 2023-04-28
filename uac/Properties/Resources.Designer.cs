@@ -71,22 +71,12 @@ namespace uac.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Bitmap Banner1 {
+        internal static System.Drawing.Icon alogo {
             get {
-                object obj = ResourceManager.GetObject("Banner1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap bannerTm {
-            get {
-                object obj = ResourceManager.GetObject("bannerTm", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("alogo", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
@@ -111,22 +101,12 @@ namespace uac.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Icon logo2 {
+        internal static System.Drawing.Bitmap junk {
             get {
-                object obj = ResourceManager.GetObject("logo2", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon TeamViewer_Logo_Icon_Only {
-            get {
-                object obj = ResourceManager.GetObject("TeamViewer_Logo_Icon_Only", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
+                object obj = ResourceManager.GetObject("junk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

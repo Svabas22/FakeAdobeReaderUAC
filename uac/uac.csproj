@@ -33,7 +33,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>TeamViewer_Logo_Icon_Only.ico</ApplicationIcon>
+    <ApplicationIcon>alogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -78,11 +82,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Teamviewer.cs">
+    <Compile Include="Adobe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Teamviewer.Designer.cs">
-      <DependentUpon>Teamviewer.cs</DependentUpon>
+    <Compile Include="Adobe.Designer.cs">
+      <DependentUpon>Adobe.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -92,8 +96,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Teamviewer.resx">
-      <DependentUpon>Teamviewer.cs</DependentUpon>
+    <EmbeddedResource Include="Adobe.resx">
+      <DependentUpon>Adobe.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -110,30 +114,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\a.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Icon1.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\TeamViewer_Logo_Icon_Only.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Close.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Banner.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bannerTm.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\bottom.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\logo.ico" />
-    <None Include="Resources\logo2.ico" />
-    <Content Include="TeamViewer_Logo_Icon_Only.ico" />
+    <None Include="Resources\a.png" />
+    <None Include="Resources\alogo.ico" />
+    <Content Include="alogo.ico" />
+    <None Include="Resources\junk.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
